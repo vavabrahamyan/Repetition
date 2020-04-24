@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{23C4D038-990C-4ADF-AE94-3CA43A378D34}</ProjectGuid>
+    <ProjectGuid>{0D251366-84B4-4A7D-AF36-B077EDA5C9A0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Home.Lesson.Repository</RootNamespace>
-    <AssemblyName>Home.Lesson.Repository</AssemblyName>
+    <RootNamespace>Home.Lesson.Repository.MainProject</RootNamespace>
+    <AssemblyName>Home.Lesson.Repository.MainProject</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,18 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Attributes\DateFormatAttribute.cs" />
-    <Compile Include="Attributes\IgnoreAttribute.cs" />
-    <Compile Include="Models\Dog.cs" />
-    <Compile Include="Repository\BaseRepository.cs" />
-    <Compile Include="Models\Student.cs" />
-    <Compile Include="Models\Teacher.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repository\DogRepository.cs" />
-    <Compile Include="Repository\StudentRepository.cs" />
-    <Compile Include="Repository\TeacherRepository.cs" />
-    <Compile Include="XmlExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
