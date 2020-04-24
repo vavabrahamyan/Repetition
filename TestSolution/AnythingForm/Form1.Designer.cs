@@ -152,7 +152,7 @@
             this.Controls.Add(this.checkBox_Remve);
             this.Controls.Add(this.checkBox_Add);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "ՀԾ";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);
