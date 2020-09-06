@@ -33,5 +33,11 @@ namespace OneMoreForm
         {
             MessageBox.Show(message, MBHeader, MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
+        void Swap(ref int Num_A,ref int Num_B)
+        {
+           int swapNum = Num_A;
+           Num_A = Num_B;
+           Num_B = swapNum;
+        }
     }
 }
