@@ -12,6 +12,8 @@ namespace ConnectWIthDB
                                             "Initial Catalog=V_DB;Integrated Security=True";
         static void Main(string[] args)
         {
+
+            Console.WriteLine("test");
             using (var connection = new SqlConnection(connectionString))
             {
                 connection.Open();
